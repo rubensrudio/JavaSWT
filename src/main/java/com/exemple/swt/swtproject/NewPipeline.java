@@ -1281,7 +1281,7 @@ public class NewPipeline {
 	    		}
     		}
     	}
-    	else if (connectionTypeCombo.getText().equals("EXATA")) {
+    	else if (connectionTypeCombo.getText().equals("VDB")) {
     		if (uwiSourceCombo.getText().trim().isEmpty()) {
     			showMessage("Error", "UWI Source is required!");
                 return false;
