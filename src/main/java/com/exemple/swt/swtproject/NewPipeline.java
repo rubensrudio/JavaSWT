@@ -80,7 +80,7 @@ public class NewPipeline {
         connectionTypeLabel.setText("Connection type:");
         
         connectionTypeCombo = new Combo(firstPanel, SWT.DROP_DOWN | SWT.READ_ONLY);
-        connectionTypeCombo.setItems(new String[] { "ASCII", "WITSML", "EXATA" });
+        connectionTypeCombo.setItems(new String[] { "ASCII", "WITSML", "VDB" });
         connectionTypeCombo.select(0);
         
         new Label(firstPanel, SWT.NONE);
@@ -135,7 +135,7 @@ public class NewPipeline {
         		connectionCombo.setEnabled(true);
         		browseButton.setEnabled(true);
         		uwiSourceCombo.setEnabled(true);
-        	} else if (connectionTypeCombo.getText().equals("EXATA")) {
+        	} else if (connectionTypeCombo.getText().equals("VDB")) {
         		connectionCombo.setEnabled(false);
         		browseButton.setEnabled(false);
         		uwiSourceCombo.setEnabled(true);
@@ -206,7 +206,7 @@ public class NewPipeline {
 	                createDirectionalTab(firstPanel, 1); 
 	                createLogCurvesTab(firstPanel, 1);
 	                break;
-	            case "EXATA":
+	            case "VDB":
 	                createDirectionalTab(firstPanel, 2); 
 	                createLithologyTab(firstPanel, 2);
 	                createLogCurvesTab(firstPanel, 2);
