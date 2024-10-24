@@ -1,4 +1,4 @@
-This Java code defines a user interface for configuring a pipeline system using SWT (Standard Widget Toolkit). The layout primarily consists of a set of tabs, text fields, combo boxes, and buttons that allow users to select and input different parameters based on connection types (ASCII, WITSML, EXATA). Each connection type presents specific fields and options related to directional data, lithology, log curves, and drilling parameters.
+This Java code defines a user interface for configuring a pipeline system using SWT (Standard Widget Toolkit). The layout primarily consists of a set of tabs, text fields, combo boxes, and buttons that allow users to select and input different parameters based on connection types (ASCII, WITSML, VDB). Each connection type presents specific fields and options related to directional data, lithology, log curves, and drilling parameters.
 
 Key aspects of the UI design:
 
